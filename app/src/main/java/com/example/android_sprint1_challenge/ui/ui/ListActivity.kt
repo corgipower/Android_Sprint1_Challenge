@@ -18,7 +18,7 @@ class ListActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         //button on list will open edit activity
-        movie_list_item.setOnClickListener {
+        list_button.setOnClickListener {
             var editMovieIntent = Intent(this, EditActivity::class.java)
             startActivityForResult(editMovieIntent, REQUEST_MOVIE_WATCHED)
         }

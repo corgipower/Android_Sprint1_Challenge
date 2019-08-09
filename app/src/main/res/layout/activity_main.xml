@@ -16,15 +16,16 @@
             android:id="@+id/movie_list"
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent">
+
+
+        <TextView
+                android:id="@+id/movie_list_item"
+                android:text="placeholder"
+                android:layout_width="match_parent"
+                android:layout_height="18sp"/>
 
     </LinearLayout>
 </ScrollView>
-
-    <Button
-            android:id="@+id/button"
-            android:text="placeholder"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
 
 </LinearLayout>

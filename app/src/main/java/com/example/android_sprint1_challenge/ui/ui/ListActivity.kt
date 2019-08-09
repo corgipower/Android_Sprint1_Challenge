@@ -1,4 +1,4 @@
-package com.example.android_sprint1_challenge.ui
+package com.example.android_sprint1_challenge.ui.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

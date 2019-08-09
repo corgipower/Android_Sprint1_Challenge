@@ -18,6 +18,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+        <TextView
+                android:id="@+id/movie_list_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:padding="8dp"
+                android:text="placeholder"/>
+
     </LinearLayout>
 </ScrollView>
 
